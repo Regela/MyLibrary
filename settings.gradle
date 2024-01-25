@@ -5,12 +5,6 @@ pluginManagement {
         gradlePluginPortal()
     }
 }
-
-//sourceControl {
-//    gitRepository(uri("https://github.com/Marsel151205/KotlinLibrary")) {
-//        producesModule("com.github:job")
-//    }
-//}
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
