@@ -37,9 +37,9 @@ android {
 publishing {
     publications{
         create<MavenPublication>("mylibrary") {
-            groupId = "com.github"
-            artifactId = "my"
-            version = "1.0.4"
+            groupId = "com.github.Marsel151205"
+            artifactId = "MyLibrary"
+            version = "1.0.5"
         }
     }
 }
