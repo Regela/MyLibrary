@@ -34,16 +34,6 @@ android {
 }
 
 
-publishing {
-    publications{
-        create<MavenPublication>("mylibrary") {
-            groupId = "com.github.Marsel151205"
-            artifactId = "MyLibrary"
-            version = "1.0.5"
-        }
-    }
-}
-
 dependencies {
 
     implementation("androidx.core:core-ktx:1.12.0")
